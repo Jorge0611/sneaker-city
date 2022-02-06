@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "brandId": 1,
+    "model": "Air Force 1",
+    "price": 65.99,
+    "image": "/sneaker/nike/nike-air-force-1.png",
+    "publishedAt": "1989-02-10"
+  },
+  {
+    "id": 2,
+    "brandId": 2,
+    "model": "Forum Home Alone",
+    "price": 110,
+    "image": "/sneaker/adidas/adidas-forum-home-alone.png",
+    "publishedAt": "1996-06-08"
+  },
+  {
+    "id": 3,
+    "brandId": 2,
+    "model": "NMD R1",
+    "price": 104.99,
+    "image": "/sneaker/adidas/adidas-nmd-r1.png",
+    "publishedAt": "2016-01-15"
+  },
+  {
+    "id": 4,
+    "brandId": 2,
+    "model": "Originals Superstar",
+    "price": 85.59,
+    "image": "/sneaker/adidas/adidas-originals-superstar.png",
+    "publishedAt": "2000-01-01"
+  },
+  {
+    "id": 5,
+    "brandId": 2,
+    "model": "Originals Yeezy Boost 700 MNVN",
+    "price": 269,
+    "image": "/sneaker/adidas/adidas-originals-yeezy-boost-700-mnvn.png",
+    "publishedAt": "2020-09-06"
+  },
+  {
+    "id": 6,
+    "brandId": 2,
+    "model": "Ozelia",
+    "price": 186,
+    "image": "/sneaker/adidas/adidas-ozelia.png",
+    "publishedAt": "2019-03-05"
+  },
+  {
+    "id": 7,
+    "brandId": 2,
+    "model": "Trae Young 1",
+    "price": 120.79,
+    "image": "/sneaker/adidas/adidas-trae-young-1.png",
+    "publishedAt": "2021-04-04"
+  },
+  {
+    "id": 8,
+    "brandId": 2,
+    "model": "Ultraboost 20",
+    "price": 89.99,
+    "image": "/sneaker/Adidas/adidas-ultraboost-20.png",
+    "publishedAt": "2013-11-26"
+  },
+  {
+    "id": 9,
+    "brandId": 1,
+    "model": "Air Flight Lite Mid",
+    "price": 220.9,
+    "image": "/sneaker/Nike/nike-air-flight-lite-mid.png",
+    "publishedAt": "1998-03-11"
+  },
+  {
+    "id": 10,
+    "brandId": 1,
+    "model": "Air Max 97",
+    "price": 94,
+    "image": "/sneaker/nike/nike-air-max-97.png",
+    "publishedAt": "2014-09-06"
+  },
+  {
+    "id": 11,
+    "brandId": 1,
+    "model": "Air Max 270",
+    "price": 110.99,
+    "image": "/sneaker/nike/nike-air-max-270.png",
+    "publishedAt": "2016-08-02"
+  },
+  {
+    "id": 12,
+    "brandId": 1,
+    "model": "Blazer High",
+    "price": 100.99,
+    "image": "/sneaker/nike/nike-blazer-high.png",
+    "publishedAt": "2002-10-25"
+  },
+  {
+    "id": 13,
+    "brandId": 1,
+    "model": "Huarache Run",
+    "price": 137,
+    "image": "/sneaker/nike/nike-huarache-run.png",
+    "publishedAt": "2018-09-26"
+  },
+  {
+    "id": 14,
+    "brandId": 1,
+    "model": "Kyrie Low 4",
+    "price": 189.9,
+    "image": "/sneaker/nike/nike-kyrie-low-4.png",
+    "publishedAt": "2017-12-25"
+  },
+  {
+    "id": 15,
+    "brandId": 1,
+    "model": "LeBron XIX",
+    "price": 179.9,
+    "image": "/sneaker/nike/nike-lebron-xix.png",
+    "publishedAt": "2021-11-11"
+  },
+  {
+    "id": 16,
+    "brandId": 1,
+    "model": "Space Hippie",
+    "price": 89.7,
+    "image": "/sneaker/nike/nike-space-hippie.png",
+    "publishedAt": "2004-04-20"
+  },
+  {
+    "id": 17,
+    "brandId": 1,
+    "model": "Vapormax Plus",
+    "price": 110.9,
+    "image": "/sneaker/nike/nike-vapormax-plus.png",
+    "publishedAt": "2018-06-24"
+  },
+  {
+    "id": 18,
+    "brandId": 3,
+    "model": "BMW MMS RS",
+    "price": 83.79,
+    "image": "/sneaker/puma/puma-bmw-mms-rs.png",
+    "publishedAt": "2017-03-08"
+  },
+  {
+    "id": 19,
+    "brandId": 3,
+    "model": "Cali Pro",
+    "price": 65,
+    "image": "/sneaker/puma/puma-cali-pro.png",
+    "publishedAt": "1996-12-05"
+  },
+  {
+    "id": 20,
+    "brandId": 3,
+    "model": "Disc Rebirth",
+    "price": 94.6,
+    "image": "/sneaker/puma/puma-disc-rebirth.png",
+    "publishedAt": "2020-08-21"
+  },
+  {
+    "id": 21,
+    "brandId": 3,
+    "model": "Future Rider",
+    "price": 89.9,
+    "image": "/sneaker/puma/puma-future-rider.png",
+    "publishedAt": "2020-08-22"
+  },
+  {
+    "id": 22,
+    "brandId": 3,
+    "model": "RS X",
+    "price": 64.5,
+    "image": "/sneaker/Puma/puma-rs-x.png",
+    "publishedAt": "2016-05-19"
+  },
+  {
+    "id": 23,
+    "brandId": 3,
+    "model": "Suede Classic",
+    "price": 124.9,
+    "image": "/sneaker/puma/puma-suede-classic.png",
+    "publishedAt": "1992-04-22"
+  },
+  {
+    "id": 24,
+    "brandId": 4,
+    "model": "All Star CX High Top",
+    "price": 120.9,
+    "image": "/sneaker/converse/converse-all-star-cx-high-top.png",
+    "publishedAt": "1984-06-17"
+  },
+  {
+    "id": 25,
+    "brandId": 4,
+    "model": "Run Star Hike Platform High Top",
+    "price": 146.9,
+    "image": "/sneaker/converse/converse-run-star-hike-platform-high-top.png",
+    "publishedAt": "2020-01-02"
+  },
+  {
+    "id": 26,
+    "brandId": 4,
+    "model": "All Star Low Top",
+    "price": 73.7,
+    "image": "/sneaker/converse/converse-all-star-low-top.png",
+    "publishedAt": "1986-05-24"
+  },
+  {
+    "id": 26,
+    "brandId": 4,
+    "model": "Weapon CX",
+    "price": 125.9,
+    "image": "/sneaker/converse/converse-weapon-cx.png",
+    "publishedAt": "2017-07-07"
+  },
+  {
+    "id": 27,
+    "brandId": 5,
+    "model": "Classic Leather Legacy",
+    "price": 90.9,
+    "image": "/sneaker/Reebok/reebok-classic-leather-legacy.png",
+    "publishedAt": "1993-07-08"
+  },
+  {
+    "id": 28,
+    "brandId": 5,
+    "model": "Club C 85 Vintage",
+    "price": 108,
+    "image": "/sneaker/Reebok/reebok-club-c-85-vintage.png",
+    "publishedAt": "2020-12-28"
+  },
+  {
+    "id": 29,
+    "brandId": 5,
+    "model": "Club C 85",
+    "price": 108,
+    "image": "/sneaker/Reebok/reebok-club-c-85.png",
+    "publishedAt": "2000-12-28"
+  },
+  {
+    "id": 30,
+    "brandId": 5,
+    "model": "Freestyle Hi",
+    "price": 124.9,
+    "image": "/sneaker/Reebok/reebok-freestyle-hi.png",
+    "publishedAt": "2016-03-21"
+  },
+  {
+    "id": 31,
+    "brandId": 5,
+    "model": "Pump Omni Zone II",
+    "price": 87.76,
+    "image": "/sneaker/Reebok/reebok-pump-omni-zone-ii.png",
+    "publishedAt": "2019-08-20"
+  },
+  {
+    "id": 32,
+    "brandId": 5,
+    "model": "Question Low",
+    "price": 94.9,
+    "image": "/sneaker/Reebok/reebok-question-low.png",
+    "publishedAt": "2017-01-26"
+  },
+  {
+    "id": 33,
+    "brandId": 5,
+    "model": "Question Mid",
+    "price": 104.9,
+    "image": "/sneaker/Reebok/reebok-question-mid.png",
+    "publishedAt": "2017-01-26"
+  },
+  {
+    "id": 34,
+    "brandId": 5,
+    "model": "Workout Plus",
+    "price": 89.9,
+    "image": "/sneaker/Reebok/reebok-workout-plus.png",
+    "publishedAt": "2019-05-30"
+  },
+  {
+    "id": 35,
+    "brandId": 6,
+    "model": "Authentic",
+    "price": 69.9,
+    "image": "/sneaker/Vans/vans-authentic.png",
+    "publishedAt": "1997-09-26"
+  },
+  {
+    "id": 36,
+    "brandId": 6,
+    "model": "Lowland",
+    "price": 84.6,
+    "image": "/sneaker/Vans/vans-lowland.png",
+    "publishedAt": "1989-04-22"
+  },
+  {
+    "id": 37,
+    "brandId": 6,
+    "model": "Old Skool",
+    "price": 189.9,
+    "image": "/sneaker/Vans/vans-old-skool.png",
+    "publishedAt": "1983-12-16"
+  },
+  {
+    "id": 38,
+    "brandId": 6,
+    "model": "SK8 Hi Reflective",
+    "price": 79.9,
+    "image": "/sneaker/Vans/vans-sk8-hi-reflective.png",
+    "publishedAt": "2012-10-22"
+  }
+]
