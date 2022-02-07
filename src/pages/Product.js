@@ -65,6 +65,7 @@ const Product = () => {
               >
                 {brandName}
               </Link>
+              <p>Price: ${data.price}</p>
               <p className="mt-4">{data.publishedAt}</p>
             </div>
             <div>

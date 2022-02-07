@@ -5,6 +5,7 @@ import ProductList from "../components/ProductList";
 const MyCart = () => {
   const [cart, setCart] = useState([]);
   const [payment, showPayment] = useState(false);
+  const [price, setPrice] = useState(0);
 
   useEffect(() => {
     let data = JSON.parse(localStorage.getItem("cart") || "[]");
@@ -31,6 +32,17 @@ const MyCart = () => {
     localStorage.removeItem("cart");
     setCart([]);
     showPayment(false);
+  }
+
+  function totalPayment() {
+    let total = 0;
+    for (const [key, value] of Object.entries(groupBy(cart))) {
+      for (let item of value) {
+        total += item.price;
+      }
+    }
+
+    return total;
   }
 
   return (
@@ -60,7 +72,10 @@ const MyCart = () => {
       <div className="mt-6">
         <button
           className="flex w-full flex-row items-center justify-center space-x-2 rounded bg-green-600 px-8 py-2 text-white hover:bg-green-500"
-          onClick={() => showPayment(true)}
+          onClick={() => {
+            showPayment(true);
+            setPrice(totalPayment());
+          }}
         >
           <span className="text-lg font-semibold">Buy </span>
           <svg
@@ -79,19 +94,28 @@ const MyCart = () => {
           </svg>
         </button>
       </div>
-      {payment && <PaymentScreen onClick={() => buyCart()} />}
+      {payment && (
+        <PaymentScreen
+          price={price}
+          onPruchase={() => buyCart()}
+          onCancel={() => showPayment(false)}
+        />
+      )}
     </div>
   );
 };
 
-const PaymentScreen = ({ onClick }) => {
+const PaymentScreen = ({ price, onPruchase, onCancel }) => {
   return (
     <div className="fixed top-0 left-0 flex min-h-screen w-full items-center justify-center bg-neutral-800/95 p-8 md:p-32">
       <div className="w-full rounded bg-white p-8">
         <div>
           <h1 className="text-4xl font-semibold">Payment</h1>
         </div>
-        <form onSubmit={onClick}>
+        <div>
+          <h1 className="text-xl font-semibold">Total: {price}</h1>
+        </div>
+        <form onSubmit={onPruchase}>
           <div className="mt-8 flex flex-col space-y-8">
             <div className="flex flex-col">
               <label>Full Name</label>
@@ -117,7 +141,13 @@ const PaymentScreen = ({ onClick }) => {
               />
             </div>
           </div>
-          <div className="mt-8 flex justify-end">
+          <div className="m mt-8 flex justify-end">
+            <button
+              onClick={onCancel}
+              className="mr-2 rounded bg-red-600 px-8 py-2 font-semibold text-white hover:bg-red-500"
+            >
+              Cancel
+            </button>
             <button
               type="submit"
               className="rounded bg-green-600 px-8 py-2 font-semibold text-white hover:bg-green-500"
