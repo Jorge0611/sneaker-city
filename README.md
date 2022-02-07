@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# BPD Code Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pruaba de programacion para BPD
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run dev`
+
+This command will run `npm start` and `npm run json-server` concurrently.
+
+### `npm run json-server`
+
+This command will start a fake REST API created using json-server for the application.
 
 ### `npm start`
 
