@@ -1,6 +1,9 @@
 const Banner = () => {
   return (
-    <div className="m-3 flex flex-col items-center bg-neutral-900 px-16 py-8 text-white md:flex-row">
+    <div
+      data-testid="banner-container"
+      className="m-3 flex flex-col items-center bg-neutral-900 px-16 py-8 text-white md:flex-row"
+    >
       <div className="flex-none">
         <img src="/sneaker/banner.png" alt="banner" />
       </div>
