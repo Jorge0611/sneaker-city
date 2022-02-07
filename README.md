@@ -1,6 +1,8 @@
 # BPD Code Challenge
+Página web creada utilizando ReactJS como front-end y json-server para generar REST API falsas para el desarrollo de la aplicación. 
 
-Pruaba de programacion para BPD
+Pruaba de programacion para BPD.
+
 
 ## Available Scripts
 
