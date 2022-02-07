@@ -13,6 +13,7 @@ const Sneakers = ({ data, brand }) => {
     <div className="mt-8 grid grid-cols-2 gap-8 px-4 md:grid-cols-4 md:px-0">
       {data.map((value, key) => (
         <Card
+          data-testid="card-component"
           key={key}
           id={value.id}
           brand={getBrand(value.brandId)}
@@ -28,7 +29,7 @@ const Sneakers = ({ data, brand }) => {
 
 export const Card = ({ id, brand, model, image, date, price }) => {
   return (
-    <div className="rounded-md border border-neutral-300">
+    <div test className="rounded-md border border-neutral-300">
       {/* Image */}
       <div className="bg-neutral-100 p-2">
         <Link to={`/product/${id}`}>

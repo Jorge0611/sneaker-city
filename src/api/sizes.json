@@ -2,1141 +2,2281 @@
   {
     "id": 1,
     "sneakerId": 1,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 10
-      },
-      {
-        "size": 8,
-        "qty": 12
-      },
-      {
-        "size": 8.5,
-        "qty": 4
-      },
-      {
-        "size": 9,
-        "qty": 6
-      },
-      {
-        "size": 10,
-        "qty": 14
-      },
-      {
-        "size": 10,
-        "qty": 22
-      }
-    ]
+    "size": 7,
+    "qty": 10
   },
   {
     "id": 2,
-    "sneakerId": 2,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 10
-      },
-      {
-        "size": 8,
-        "qty": 12
-      },
-      {
-        "size": 8.5,
-        "qty": 4
-      },
-      {
-        "size": 9,
-        "qty": 6
-      },
-      {
-        "size": 10,
-        "qty": 14
-      },
-      {
-        "size": 10,
-        "qty": 22
-      }
-    ]
+    "sneakerId": 1,
+    "size": 7.5,
+    "qty": 10
   },
   {
     "id": 3,
-    "sneakerId": 3,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 10
-      },
-      {
-        "size": 8,
-        "qty": 6
-      },
-      {
-        "size": 8.5,
-        "qty": 4
-      },
-      {
-        "size": 9,
-        "qty": 6
-      },
-      {
-        "size": 10,
-        "qty": 14
-      },
-      {
-        "size": 10,
-        "qty": 22
-      }
-    ]
+    "sneakerId": 1,
+    "size": 8.0,
+    "qty": 10
   },
   {
     "id": 4,
-    "sneakerId": 4,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 10
-      },
-      {
-        "size": 8,
-        "qty": 12
-      },
-      {
-        "size": 8.5,
-        "qty": 4
-      },
-      {
-        "size": 9,
-        "qty": 6
-      },
-      {
-        "size": 10,
-        "qty": 14
-      },
-      {
-        "size": 10,
-        "qty": 22
-      }
-    ]
+    "sneakerId": 1,
+    "size": 8.5,
+    "qty": 10
   },
   {
     "id": 5,
-    "sneakerId": 5,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 10
-      },
-      {
-        "size": 8,
-        "qty": 12
-      },
-      {
-        "size": 8.5,
-        "qty": 4
-      },
-      {
-        "size": 9,
-        "qty": 6
-      },
-      {
-        "size": 10,
-        "qty": 14
-      },
-      {
-        "size": 10,
-        "qty": 22
-      }
-    ]
+    "sneakerId": 1,
+    "size": 9.0,
+    "qty": 10
   },
   {
     "id": 6,
-    "sneakerId": 6,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 1,
+    "size": 9.5,
+    "qty": 10
   },
   {
     "id": 7,
-    "sneakerId": 7,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 1,
+    "size": 10.0,
+    "qty": 10
   },
   {
     "id": 8,
-    "sneakerId": 8,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 1,
+    "size": 10.5,
+    "qty": 10
   },
   {
     "id": 9,
-    "sneakerId": 9,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 1,
+    "size": 11.0,
+    "qty": 10
   },
   {
     "id": 10,
-    "sneakerId": 10,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 1,
+    "size": 11.5,
+    "qty": 10
   },
   {
     "id": 11,
-    "sneakerId": 11,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 7,
+    "qty": 10
   },
   {
     "id": 12,
-    "sneakerId": 12,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 7.5,
+    "qty": 10
   },
   {
     "id": 13,
-    "sneakerId": 13,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 8.0,
+    "qty": 10
   },
   {
     "id": 14,
-    "sneakerId": 14,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 8.5,
+    "qty": 10
   },
   {
     "id": 15,
-    "sneakerId": 15,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 9.0,
+    "qty": 10
   },
   {
     "id": 16,
-    "sneakerId": 16,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 9.5,
+    "qty": 10
   },
   {
     "id": 17,
-    "sneakerId": 17,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 10.0,
+    "qty": 10
   },
   {
     "id": 18,
-    "sneakerId": 18,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 10.5,
+    "qty": 10
   },
   {
     "id": 19,
-    "sneakerId": 19,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 11.0,
+    "qty": 10
   },
   {
     "id": 20,
-    "sneakerId": 20,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 2,
+    "size": 11.5,
+    "qty": 10
   },
   {
     "id": 21,
-    "sneakerId": 21,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 7,
+    "qty": 10
   },
   {
     "id": 22,
-    "sneakerId": 22,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 7.5,
+    "qty": 10
   },
   {
     "id": 23,
-    "sneakerId": 23,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 8.0,
+    "qty": 10
   },
   {
     "id": 24,
-    "sneakerId": 24,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 8.5,
+    "qty": 10
   },
   {
     "id": 25,
-    "sneakerId": 25,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 9.0,
+    "qty": 10
   },
   {
     "id": 26,
-    "sneakerId": 26,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 9.5,
+    "qty": 10
   },
   {
     "id": 27,
-    "sneakerId": 27,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 10.0,
+    "qty": 10
   },
   {
     "id": 28,
-    "sneakerId": 28,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 10.5,
+    "qty": 10
   },
   {
     "id": 29,
-    "sneakerId": 29,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 11.0,
+    "qty": 10
   },
   {
     "id": 30,
-    "sneakerId": 30,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 3,
+    "size": 11.5,
+    "qty": 10
   },
   {
     "id": 31,
-    "sneakerId": 31,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 7,
+    "qty": 10
   },
   {
     "id": 32,
-    "sneakerId": 32,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 7.5,
+    "qty": 10
   },
   {
     "id": 33,
-    "sneakerId": 33,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 8.0,
+    "qty": 10
   },
   {
     "id": 34,
-    "sneakerId": 34,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 8.5,
+    "qty": 10
   },
   {
     "id": 35,
-    "sneakerId": 35,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 9.0,
+    "qty": 10
   },
   {
     "id": 36,
-    "sneakerId": 36,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 9.5,
+    "qty": 10
   },
   {
     "id": 37,
-    "sneakerId": 37,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "sneakerId": 4,
+    "size": 10.0,
+    "qty": 10
   },
   {
     "id": 38,
+    "sneakerId": 4,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 39,
+    "sneakerId": 4,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 40,
+    "sneakerId": 4,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 41,
+    "sneakerId": 5,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 42,
+    "sneakerId": 5,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 43,
+    "sneakerId": 5,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 44,
+    "sneakerId": 5,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 45,
+    "sneakerId": 5,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 46,
+    "sneakerId": 5,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 47,
+    "sneakerId": 5,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 48,
+    "sneakerId": 5,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 49,
+    "sneakerId": 5,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 50,
+    "sneakerId": 5,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 51,
+    "sneakerId": 6,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 52,
+    "sneakerId": 6,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 53,
+    "sneakerId": 6,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 54,
+    "sneakerId": 6,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 55,
+    "sneakerId": 6,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 56,
+    "sneakerId": 6,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 57,
+    "sneakerId": 6,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 58,
+    "sneakerId": 6,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 59,
+    "sneakerId": 6,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 60,
+    "sneakerId": 6,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 61,
+    "sneakerId": 7,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 62,
+    "sneakerId": 7,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 63,
+    "sneakerId": 7,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 64,
+    "sneakerId": 7,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 65,
+    "sneakerId": 7,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 66,
+    "sneakerId": 7,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 67,
+    "sneakerId": 7,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 68,
+    "sneakerId": 7,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 69,
+    "sneakerId": 7,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 70,
+    "sneakerId": 7,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 71,
+    "sneakerId": 8,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 72,
+    "sneakerId": 8,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 73,
+    "sneakerId": 8,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 74,
+    "sneakerId": 8,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 75,
+    "sneakerId": 8,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 76,
+    "sneakerId": 8,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 77,
+    "sneakerId": 8,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 78,
+    "sneakerId": 8,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 79,
+    "sneakerId": 8,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 80,
+    "sneakerId": 8,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 81,
+    "sneakerId": 9,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 82,
+    "sneakerId": 9,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 83,
+    "sneakerId": 9,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 84,
+    "sneakerId": 9,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 85,
+    "sneakerId": 9,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 86,
+    "sneakerId": 9,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 87,
+    "sneakerId": 9,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 88,
+    "sneakerId": 9,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 89,
+    "sneakerId": 9,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 90,
+    "sneakerId": 9,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 91,
+    "sneakerId": 10,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 92,
+    "sneakerId": 10,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 93,
+    "sneakerId": 10,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 94,
+    "sneakerId": 10,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 95,
+    "sneakerId": 10,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 96,
+    "sneakerId": 10,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 97,
+    "sneakerId": 10,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 98,
+    "sneakerId": 10,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 99,
+    "sneakerId": 10,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 100,
+    "sneakerId": 10,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 101,
+    "sneakerId": 11,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 102,
+    "sneakerId": 11,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 103,
+    "sneakerId": 11,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 104,
+    "sneakerId": 11,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 105,
+    "sneakerId": 11,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 106,
+    "sneakerId": 11,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 107,
+    "sneakerId": 11,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 108,
+    "sneakerId": 11,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 109,
+    "sneakerId": 11,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 110,
+    "sneakerId": 11,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 111,
+    "sneakerId": 12,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 112,
+    "sneakerId": 12,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 113,
+    "sneakerId": 12,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 114,
+    "sneakerId": 12,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 115,
+    "sneakerId": 12,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 116,
+    "sneakerId": 12,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 117,
+    "sneakerId": 12,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 118,
+    "sneakerId": 12,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 119,
+    "sneakerId": 12,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 120,
+    "sneakerId": 12,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 121,
+    "sneakerId": 13,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 122,
+    "sneakerId": 13,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 123,
+    "sneakerId": 13,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 124,
+    "sneakerId": 13,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 125,
+    "sneakerId": 13,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 126,
+    "sneakerId": 13,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 127,
+    "sneakerId": 13,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 128,
+    "sneakerId": 13,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 129,
+    "sneakerId": 13,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 130,
+    "sneakerId": 13,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 131,
+    "sneakerId": 14,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 132,
+    "sneakerId": 14,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 133,
+    "sneakerId": 14,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 134,
+    "sneakerId": 14,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 135,
+    "sneakerId": 14,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 136,
+    "sneakerId": 14,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 137,
+    "sneakerId": 14,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 138,
+    "sneakerId": 14,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 139,
+    "sneakerId": 14,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 140,
+    "sneakerId": 14,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 141,
+    "sneakerId": 15,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 142,
+    "sneakerId": 15,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 143,
+    "sneakerId": 15,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 144,
+    "sneakerId": 15,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 145,
+    "sneakerId": 15,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 146,
+    "sneakerId": 15,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 147,
+    "sneakerId": 15,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 148,
+    "sneakerId": 15,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 149,
+    "sneakerId": 15,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 150,
+    "sneakerId": 15,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 151,
+    "sneakerId": 16,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 152,
+    "sneakerId": 16,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 153,
+    "sneakerId": 16,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 154,
+    "sneakerId": 16,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 155,
+    "sneakerId": 16,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 156,
+    "sneakerId": 16,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 157,
+    "sneakerId": 16,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 158,
+    "sneakerId": 16,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 159,
+    "sneakerId": 16,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 160,
+    "sneakerId": 16,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 161,
+    "sneakerId": 17,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 162,
+    "sneakerId": 17,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 163,
+    "sneakerId": 17,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 164,
+    "sneakerId": 17,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 165,
+    "sneakerId": 17,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 166,
+    "sneakerId": 17,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 167,
+    "sneakerId": 17,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 168,
+    "sneakerId": 17,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 169,
+    "sneakerId": 17,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 170,
+    "sneakerId": 17,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 171,
+    "sneakerId": 18,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 172,
+    "sneakerId": 18,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 173,
+    "sneakerId": 18,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 174,
+    "sneakerId": 18,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 175,
+    "sneakerId": 18,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 176,
+    "sneakerId": 18,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 177,
+    "sneakerId": 18,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 178,
+    "sneakerId": 18,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 179,
+    "sneakerId": 18,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 180,
+    "sneakerId": 18,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 181,
+    "sneakerId": 19,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 182,
+    "sneakerId": 19,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 183,
+    "sneakerId": 19,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 184,
+    "sneakerId": 19,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 185,
+    "sneakerId": 19,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 186,
+    "sneakerId": 19,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 187,
+    "sneakerId": 19,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 188,
+    "sneakerId": 19,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 189,
+    "sneakerId": 19,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 190,
+    "sneakerId": 19,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 191,
+    "sneakerId": 20,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 192,
+    "sneakerId": 20,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 193,
+    "sneakerId": 20,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 194,
+    "sneakerId": 20,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 195,
+    "sneakerId": 20,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 196,
+    "sneakerId": 20,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 197,
+    "sneakerId": 20,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 198,
+    "sneakerId": 20,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 199,
+    "sneakerId": 20,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 200,
+    "sneakerId": 20,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 201,
+    "sneakerId": 21,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 202,
+    "sneakerId": 21,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 203,
+    "sneakerId": 21,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 204,
+    "sneakerId": 21,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 205,
+    "sneakerId": 21,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 206,
+    "sneakerId": 21,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 207,
+    "sneakerId": 21,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 208,
+    "sneakerId": 21,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 209,
+    "sneakerId": 21,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 210,
+    "sneakerId": 21,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 211,
+    "sneakerId": 22,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 212,
+    "sneakerId": 22,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 213,
+    "sneakerId": 22,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 214,
+    "sneakerId": 22,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 215,
+    "sneakerId": 22,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 216,
+    "sneakerId": 22,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 217,
+    "sneakerId": 22,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 218,
+    "sneakerId": 22,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 219,
+    "sneakerId": 22,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 220,
+    "sneakerId": 22,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 221,
+    "sneakerId": 23,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 222,
+    "sneakerId": 23,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 223,
+    "sneakerId": 23,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 224,
+    "sneakerId": 23,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 225,
+    "sneakerId": 23,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 226,
+    "sneakerId": 23,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 227,
+    "sneakerId": 23,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 228,
+    "sneakerId": 23,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 229,
+    "sneakerId": 23,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 230,
+    "sneakerId": 23,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 231,
+    "sneakerId": 24,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 232,
+    "sneakerId": 24,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 233,
+    "sneakerId": 24,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 234,
+    "sneakerId": 24,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 235,
+    "sneakerId": 24,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 236,
+    "sneakerId": 24,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 237,
+    "sneakerId": 24,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 238,
+    "sneakerId": 24,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 239,
+    "sneakerId": 24,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 240,
+    "sneakerId": 24,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 241,
+    "sneakerId": 25,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 242,
+    "sneakerId": 25,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 243,
+    "sneakerId": 25,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 244,
+    "sneakerId": 25,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 245,
+    "sneakerId": 25,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 246,
+    "sneakerId": 25,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 247,
+    "sneakerId": 25,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 248,
+    "sneakerId": 25,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 249,
+    "sneakerId": 25,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 250,
+    "sneakerId": 25,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 251,
+    "sneakerId": 26,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 252,
+    "sneakerId": 26,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 253,
+    "sneakerId": 26,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 254,
+    "sneakerId": 26,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 255,
+    "sneakerId": 26,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 256,
+    "sneakerId": 26,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 257,
+    "sneakerId": 26,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 258,
+    "sneakerId": 26,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 259,
+    "sneakerId": 26,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 260,
+    "sneakerId": 26,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 261,
+    "sneakerId": 27,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 262,
+    "sneakerId": 27,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 263,
+    "sneakerId": 27,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 264,
+    "sneakerId": 27,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 265,
+    "sneakerId": 27,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 266,
+    "sneakerId": 27,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 267,
+    "sneakerId": 27,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 268,
+    "sneakerId": 27,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 269,
+    "sneakerId": 27,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 270,
+    "sneakerId": 27,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 271,
+    "sneakerId": 28,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 272,
+    "sneakerId": 28,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 273,
+    "sneakerId": 28,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 274,
+    "sneakerId": 28,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 275,
+    "sneakerId": 28,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 276,
+    "sneakerId": 28,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 277,
+    "sneakerId": 28,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 278,
+    "sneakerId": 28,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 279,
+    "sneakerId": 28,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 280,
+    "sneakerId": 28,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 281,
+    "sneakerId": 29,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 282,
+    "sneakerId": 29,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 283,
+    "sneakerId": 29,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 284,
+    "sneakerId": 29,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 285,
+    "sneakerId": 29,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 286,
+    "sneakerId": 29,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 287,
+    "sneakerId": 29,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 288,
+    "sneakerId": 29,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 289,
+    "sneakerId": 29,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 290,
+    "sneakerId": 29,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 291,
+    "sneakerId": 30,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 292,
+    "sneakerId": 30,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 293,
+    "sneakerId": 30,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 294,
+    "sneakerId": 30,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 295,
+    "sneakerId": 30,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 296,
+    "sneakerId": 30,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 297,
+    "sneakerId": 30,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 298,
+    "sneakerId": 30,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 299,
+    "sneakerId": 30,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 300,
+    "sneakerId": 30,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 301,
+    "sneakerId": 31,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 302,
+    "sneakerId": 31,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 303,
+    "sneakerId": 31,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 304,
+    "sneakerId": 31,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 305,
+    "sneakerId": 31,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 306,
+    "sneakerId": 31,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 307,
+    "sneakerId": 31,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 308,
+    "sneakerId": 31,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 309,
+    "sneakerId": 31,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 310,
+    "sneakerId": 31,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 311,
+    "sneakerId": 32,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 312,
+    "sneakerId": 32,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 313,
+    "sneakerId": 32,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 314,
+    "sneakerId": 32,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 315,
+    "sneakerId": 32,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 316,
+    "sneakerId": 32,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 317,
+    "sneakerId": 32,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 318,
+    "sneakerId": 32,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 319,
+    "sneakerId": 32,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 320,
+    "sneakerId": 32,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 321,
+    "sneakerId": 33,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 322,
+    "sneakerId": 33,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 323,
+    "sneakerId": 33,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 324,
+    "sneakerId": 33,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 325,
+    "sneakerId": 33,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 326,
+    "sneakerId": 33,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 327,
+    "sneakerId": 33,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 328,
+    "sneakerId": 33,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 329,
+    "sneakerId": 33,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 330,
+    "sneakerId": 33,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 331,
+    "sneakerId": 34,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 332,
+    "sneakerId": 34,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 333,
+    "sneakerId": 34,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 334,
+    "sneakerId": 34,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 335,
+    "sneakerId": 34,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 336,
+    "sneakerId": 34,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 337,
+    "sneakerId": 34,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 338,
+    "sneakerId": 34,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 339,
+    "sneakerId": 34,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 340,
+    "sneakerId": 34,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 341,
+    "sneakerId": 35,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 342,
+    "sneakerId": 35,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 343,
+    "sneakerId": 35,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 344,
+    "sneakerId": 35,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 345,
+    "sneakerId": 35,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 346,
+    "sneakerId": 35,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 347,
+    "sneakerId": 35,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 348,
+    "sneakerId": 35,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 349,
+    "sneakerId": 35,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 350,
+    "sneakerId": 35,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 351,
+    "sneakerId": 36,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 352,
+    "sneakerId": 36,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 353,
+    "sneakerId": 36,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 354,
+    "sneakerId": 36,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 355,
+    "sneakerId": 36,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 356,
+    "sneakerId": 36,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 357,
+    "sneakerId": 36,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 358,
+    "sneakerId": 36,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 359,
+    "sneakerId": 36,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 360,
+    "sneakerId": 36,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 361,
+    "sneakerId": 37,
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 362,
+    "sneakerId": 37,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 363,
+    "sneakerId": 37,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 364,
+    "sneakerId": 37,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 365,
+    "sneakerId": 37,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 366,
+    "sneakerId": 37,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 367,
+    "sneakerId": 37,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 368,
+    "sneakerId": 37,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 369,
+    "sneakerId": 37,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 370,
+    "sneakerId": 37,
+    "size": 11.5,
+    "qty": 10
+  },
+  {
+    "id": 371,
     "sneakerId": 38,
-    "sizes": [
-      {
-        "size": 7.5,
-        "qty": 20
-      },
-      {
-        "size": 8,
-        "qty": 20
-      },
-      {
-        "size": 8.5,
-        "qty": 20
-      },
-      {
-        "size": 9,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      },
-      {
-        "size": 10,
-        "qty": 10
-      }
-    ]
+    "size": 7,
+    "qty": 10
+  },
+  {
+    "id": 372,
+    "sneakerId": 38,
+    "size": 7.5,
+    "qty": 10
+  },
+  {
+    "id": 373,
+    "sneakerId": 38,
+    "size": 8.0,
+    "qty": 10
+  },
+  {
+    "id": 374,
+    "sneakerId": 38,
+    "size": 8.5,
+    "qty": 10
+  },
+  {
+    "id": 375,
+    "sneakerId": 38,
+    "size": 9.0,
+    "qty": 10
+  },
+  {
+    "id": 376,
+    "sneakerId": 38,
+    "size": 9.5,
+    "qty": 10
+  },
+  {
+    "id": 377,
+    "sneakerId": 38,
+    "size": 10.0,
+    "qty": 10
+  },
+  {
+    "id": 378,
+    "sneakerId": 38,
+    "size": 10.5,
+    "qty": 10
+  },
+  {
+    "id": 379,
+    "sneakerId": 38,
+    "size": 11.0,
+    "qty": 10
+  },
+  {
+    "id": 380,
+    "sneakerId": 38,
+    "size": 11.5,
+    "qty": 10
   }
 ]

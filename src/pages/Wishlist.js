@@ -1,20 +1,9 @@
 import { useState, useEffect } from "react";
 import ProductList from "../components/ProductList";
+import { removeFromLocalStorage } from "../libs/utils";
+
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState([]);
-
-  useEffect(() => {
-    let data = JSON.parse(localStorage.getItem("wishlist") || "[]");
-    setWishlist(data);
-  }, []);
-
-  function removeFromWishlist(id) {
-    let data = wishlist.filter((obj) => {
-      return obj.id !== id;
-    });
-    localStorage.setItem("cart", JSON.stringify(data));
-    setWishlist(data);
-  }
 
   function addToCart() {
     let cart = JSON.parse(localStorage.getItem("cart") || "[]");
@@ -24,6 +13,11 @@ const Wishlist = () => {
     localStorage.removeItem("wishlist");
     setWishlist([]);
   }
+
+  useEffect(() => {
+    let data = JSON.parse(localStorage.getItem("wishlist") || "[]");
+    setWishlist(data);
+  }, []);
 
   return (
     <div className="p-8">
@@ -38,9 +32,16 @@ const Wishlist = () => {
               brand={values.brand}
               model={values.model}
               price={values.price}
-              size={values.size}
+              size={values.sizeName}
               image={values.image}
-              onClick={() => removeFromWishlist(values.id)}
+              onClick={() => {
+                let data = removeFromLocalStorage(
+                  "wishlist",
+                  values.id,
+                  wishlist
+                );
+                setWishlist(data);
+              }}
             />
           ))}
         </ul>
@@ -50,7 +51,7 @@ const Wishlist = () => {
           className="flex w-full flex-row items-center justify-center space-x-2 rounded bg-green-600 px-8 py-2 text-white hover:bg-green-500"
           onClick={() => addToCart()}
         >
-          <span className="text-lg font-semibold">Buy </span>
+          <span className="text-lg font-semibold">Add to cart</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"

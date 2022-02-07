@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./libs/scrollToTop";
 
 // PAGES
 import Home from "./pages/Home";
@@ -15,13 +16,17 @@ import Wishlist from "./pages/Wishlist";
 ReactDOM.render(
   <BrowserRouter>
     <Navbar>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="product/:id" element={<Product />} />
-        <Route path="brands/:id" element={<Brand />} />
-        <Route path="my-cart" element={<MyCart />} />
-        <Route path="wishlist" element={<Wishlist />} />
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="brands/:id" element={<Brand />} />
+          <Route path="product/:id" element={<Product />} />
+          <Route path="profile">
+            <Route path="my-cart" element={<MyCart />} />
+            <Route path="wishlist" element={<Wishlist />} />
+          </Route>
+        </Routes>
+      </ScrollToTop>
     </Navbar>
   </BrowserRouter>,
   document.getElementById("root")
