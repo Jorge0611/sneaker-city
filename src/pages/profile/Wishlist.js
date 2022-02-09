@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import ProductList from "../components/ProductList";
-import { removeFromLocalStorage } from "../libs/utils";
+import ProductList from "../../components/ProductList";
+import { removeFromLocalStorage } from "../../libs/utils";
 
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState([]);
@@ -32,9 +32,9 @@ const Wishlist = () => {
               brand={values.brand}
               model={values.model}
               price={values.price}
-              size={values.sizeName}
+              size={values.size.size}
               image={values.image}
-              onClick={() => {
+              onDelete={() => {
                 let data = removeFromLocalStorage(
                   "wishlist",
                   values.id,

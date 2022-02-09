@@ -1,6 +1,17 @@
-const ProductList = ({ brand, model, price, size, image, onClick }) => {
+/**
+ *
+ * @param {String} brand - Brand name
+ * @param {String} model - Sneaker model
+ * @param {Number} price - Sneaker price
+ * @param {Number} size - Sneaker price
+ * @param {String} image - Image lolcation
+ * @param {Function} onDelete - Function to execute when delete is pressed
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const ProductList = ({ brand, model, price, size, image, onDelete }) => {
   return (
-    <li className="border-netrual-300 items-center rounded border bg-neutral-100 px-8 py-1">
+    <li className="items-center rounded border border-neutral-300 bg-neutral-100 px-8 py-1">
       <div className="flex flex-row items-center">
         <div>
           <img className="aspect-[1/1] h-32 w-full" src={image} alt="sneaker" />
@@ -15,8 +26,8 @@ const ProductList = ({ brand, model, price, size, image, onClick }) => {
           </div>
           <div className="flex w-full flex-col items-end md:w-auto">
             <button
-              className="boder-red-500 front-semibold flex h-10 w-full items-center justify-center rounded border bg-red-600 px-4 text-white hover:bg-red-500"
-              onClick={onClick}
+              className="front-semibold flex h-10 w-full items-center justify-center rounded border border-red-500 bg-red-600 px-4 text-white hover:bg-red-500"
+              onClick={onDelete}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

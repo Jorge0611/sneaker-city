@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useParams, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import useSWR from "swr";
-import { fetcher, addToLocalStorage } from "../libs/utils";
+import { fetcher, addToLocalStorage } from "../../libs/utils";
 
 const Product = () => {
   const { id } = useParams();
@@ -42,12 +42,12 @@ const Product = () => {
   return (
     <>
       <div className="pt-4 pl-4">
-        <a
+        <button
           onClick={() => navigate(-1)}
           className="cursor-pointer hover:text-red-600"
         >
           {"<<< "}Go back
-        </a>
+        </button>
       </div>
       <div className="p-12">
         <div className="flex w-full flex-col md:flex-row">
@@ -60,7 +60,7 @@ const Product = () => {
                 {brandName + " " + data.model}
               </h1>
               <Link
-                to={`/brands/${data.brandId}`}
+                to={`/store/brands/${data.brandId}`}
                 className="text-2xl hover:text-red-600"
               >
                 {brandName}
@@ -87,7 +87,7 @@ const Product = () => {
                 <button
                   className="flex w-full flex-row items-center justify-center rounded bg-green-600 px-8 py-2 font-semibold text-white hover:bg-green-500 disabled:opacity-50 disabled:hover:bg-green-600"
                   onClick={() => addToLocalStorage("cart", item)}
-                  disabled={!size ? true : false}
+                  disabled={!size}
                 >
                   Add to cart
                   <svg
@@ -145,7 +145,7 @@ const RadioButton = ({ id, size, qty, onChange }) => {
         name="size"
         className="peer sr-only"
         onChange={onChange}
-        disabled={qty <= 0 ? true : false}
+        disabled={qty <= 0}
       />
       <label
         className="flex cursor-pointer place-content-between rounded-lg border border-gray-300 bg-white p-2 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-red-500"

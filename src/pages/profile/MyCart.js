@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { fetcher, groupBy, removeFromLocalStorage } from "../libs/utils";
-import ProductList from "../components/ProductList";
+import { fetcher, groupBy, removeFromLocalStorage } from "../../libs/utils";
+import ProductList from "../../components/ProductList";
 
 const MyCart = () => {
   const [cart, setCart] = useState([]);
@@ -12,10 +12,14 @@ const MyCart = () => {
     setCart(data);
   }, []);
 
+  /**
+   * Buys every item in the cart, while reducing its quantity on the database
+   */
   function buyCart() {
     for (const [key, value] of Object.entries(groupBy(cart))) {
-      fetcher(`/api/sizes/${key}`).then((res) => {
-        fetch(`/api/sizes/${key}`, {
+      const apiUrl = `/api/sizes/${key}`;
+      fetcher(apiUrl).then((res) => {
+        fetch(apiUrl, {
           method: "PATCH",
           headers: {
             Accept: "application/json",
@@ -25,23 +29,26 @@ const MyCart = () => {
           body: JSON.stringify({
             qty: (res.qty -= value.length),
           }),
-        });
+        }).then((r) => r.json());
       });
     }
-    window.alert("Purchase processed succesfully");
+    window.alert("Purchase processed successfully");
     localStorage.removeItem("cart");
     setCart([]);
     showPayment(false);
   }
 
+  /**
+   * Calculate the total payment amount necessary to buy the whole cart
+   * @returns {number}
+   */
   function totalPayment() {
     let total = 0;
-    for (const [key, value] of Object.entries(groupBy(cart))) {
-      for (let item of value) {
+    for (const values of Object.values(groupBy(cart))) {
+      for (let item of values) {
         total += item.price;
       }
     }
-
     return total;
   }
 
@@ -61,7 +68,7 @@ const MyCart = () => {
               price={values.price}
               size={values.size.size}
               image={values.image}
-              onClick={() => {
+              onDelete={() => {
                 let data = removeFromLocalStorage("cart", values.id, cart);
                 setCart(data);
               }}
@@ -97,7 +104,7 @@ const MyCart = () => {
       {payment && (
         <PaymentScreen
           price={price}
-          onPruchase={() => buyCart()}
+          onPurchase={() => buyCart()}
           onCancel={() => showPayment(false)}
         />
       )}
@@ -105,17 +112,17 @@ const MyCart = () => {
   );
 };
 
-const PaymentScreen = ({ price, onPruchase, onCancel }) => {
+const PaymentScreen = ({ price, onPurchase, onCancel }) => {
   return (
-    <div className="fixed top-0 left-0 flex min-h-screen w-full items-center justify-center bg-neutral-800/95 p-8 md:p-32">
-      <div className="w-full rounded bg-white p-8">
+    <div className="fixed top-0 left-0 flex min-h-screen w-full justify-center bg-neutral-800/95 p-8 md:p-32">
+      <div className="h-min w-full rounded bg-white p-8">
         <div>
           <h1 className="text-4xl font-semibold">Payment</h1>
         </div>
         <div>
-          <h1 className="text-xl font-semibold">Total: {price}</h1>
+          <h1 className="text-xl font-semibold">Total: ${price}</h1>
         </div>
-        <form onSubmit={onPruchase}>
+        <form onSubmit={onPurchase}>
           <div className="mt-8 flex flex-col space-y-8">
             <div className="flex flex-col">
               <label>Full Name</label>

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import useSWR from "swr";
-import Sneakers from "../components/Sneakers";
-import { fetcher } from "../libs/utils";
+import Sneakers from "../../components/Sneakers";
+import { fetcher } from "../../libs/utils";
 
 const Brand = () => {
   const { id } = useParams();
@@ -23,7 +23,7 @@ const Brand = () => {
         <h1 className="text-3xl font-semibold">{brand.name}</h1>
       </div>
       <div>
-        <Sneakers data={data} />
+        <Sneakers sneakers={data} />
       </div>
     </div>
   );

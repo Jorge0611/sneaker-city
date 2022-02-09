@@ -1,5 +1,5 @@
-import { render } from "@testing-library/react";
-import Sneakers from "../components/Sneakers";
+import { render, screen } from "@testing-library/react";
+import Sneakers from "../../components/Sneakers";
 import { BrowserRouter } from "react-router-dom";
 
 const sneakers = [
@@ -45,12 +45,11 @@ const brands = [
 ];
 
 test("Sneakers list should have 3 cards", () => {
-  const { getByTestId } = render(
+  render(
     <BrowserRouter>
-      <Sneakers data={sneakers} brand={brands} />
+      <Sneakers sneakers={sneakers} brand={brands} />
     </BrowserRouter>
   );
-  let list = getByTestId("card-list");
-  let content = list.querySelectorAll('[role="card-component"]');
+  let content = screen.getAllByTestId("card-sneakers");
   expect(content.length).toEqual(3);
 });

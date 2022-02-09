@@ -3,31 +3,34 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Layout from "./components/Layout";
 import ScrollToTop from "./libs/scrollToTop";
 
 // PAGES
 import Home from "./pages/Home";
-import Product from "./pages/Product";
-import MyCart from "./pages/MyCart";
-import Brand from "./pages/Brands";
-import Wishlist from "./pages/Wishlist";
+import Product from "./pages/store/Product";
+import MyCart from "./pages/profile/MyCart";
+import Brand from "./pages/store/Brands";
+import Wishlist from "./pages/profile/Wishlist";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Navbar>
+    <Layout>
       <ScrollToTop>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="brands/:id" element={<Brand />} />
-          <Route path="product/:id" element={<Product />} />
+          <Route path="store">
+            <Route index element={<Home />} />
+            <Route path="brands/:id" element={<Brand />} />
+            <Route path="product/:id" element={<Product />} />
+          </Route>
           <Route path="profile">
             <Route path="my-cart" element={<MyCart />} />
             <Route path="wishlist" element={<Wishlist />} />
           </Route>
         </Routes>
       </ScrollToTop>
-    </Navbar>
+    </Layout>
   </BrowserRouter>,
   document.getElementById("root")
 );

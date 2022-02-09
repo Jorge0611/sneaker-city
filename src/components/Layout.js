@@ -2,22 +2,22 @@ import { Link } from "react-router-dom";
 import { fetcher } from "../libs/utils";
 import useSWR from "swr";
 
-const Navbar = ({ children }) => {
+const Layout = ({ children }) => {
   const { data: brands, error } = useSWR("/api/brand", fetcher);
 
   if (error) return "An error has occurred. " + error;
   if (!brands) return "Loading...";
 
   return (
-    <div>
+    <div className="min-h-full">
       <nav className="flex flex-row items-center justify-between bg-neutral-800 px-4 py-3 text-white md:px-16">
         <div className="text-sm font-semibold md:text-lg">
-          <Link to="/" className="nav-link">
+          <Link to="/store" className="nav-link">
             Sneaker City
           </Link>
         </div>
         <div className="mx-8 flex flex-row space-x-4 text-sm md:text-base">
-          <Link to="/" className="nav-link">
+          <Link to="/store" className="nav-link">
             Home
           </Link>
           <div className="group relative inline-block justify-center">
@@ -26,7 +26,7 @@ const Navbar = ({ children }) => {
               {brands.map((values, key) => (
                 <li key={`opt-brand-${key}`}>
                   <Link
-                    to={`/brands/${values.id}`}
+                    to={`/store/brands/${values.id}`}
                     className="block whitespace-nowrap px-4 text-black hover:text-red-500"
                   >
                     {values.name}
@@ -35,7 +35,7 @@ const Navbar = ({ children }) => {
               ))}
             </ul>
           </div>
-          <Link to="profile/wishlist" className="nav-link">
+          <Link to="/profile/wishlist" className="nav-link">
             Wishlist
           </Link>
         </div>
@@ -65,7 +65,7 @@ const Navbar = ({ children }) => {
       <div className="min-h-screen bg-neutral-50 pb-8">{children}</div>
       <footer className="flex w-full flex-row items-center bg-neutral-800 py-4 text-white shadow">
         <div className="flex w-full flex-row px-2 md:px-12">
-          <img src="/bpd_logo.png" className="h-32"></img>
+          <img src="/bpd_logo.png" alt="BPD Logo" className="h-32" />
           <div className="pl-10">
             <span className="text-lg font-semibold md:text-xl">
               BPD Code Challenge
@@ -102,4 +102,4 @@ const Navbar = ({ children }) => {
   );
 };
 
-export default Navbar;
+export default Layout;
